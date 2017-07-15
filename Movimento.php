@@ -8,5 +8,6 @@
  */
 interface Movimento
 {
-
+    public function realizarMovimento(Peca $peca);
+    public function salvarStatus();
 }

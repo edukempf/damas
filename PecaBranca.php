@@ -9,4 +9,24 @@
 class PecaBranca extends Peca
 {
 
+    public function __construct($posicaoX, $posicaoY)
+    {
+        parent::__construct($posicaoX, $posicaoY);
+    }
+
+    public function realizarMovimento(Peca $peca)
+    {
+        // TODO: Implement realizarMovimento() method.
+    }
+
+    public function salvarStatus()
+    {
+        // TODO: Implement salvarStatus() method.
+    }
+
+    public function __toString()
+    {
+        return "B";
+    }
+
 }
